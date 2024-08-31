@@ -1,6 +1,4 @@
 # ML-project (VALUE WHEELS)
-# Value Wheels
-
 **Value Wheels** is a cutting-edge used car price prediction model designed to leverage the power of data-driven analytics for accurate vehicle pricing in the secondary market. By incorporating a comprehensive set of factors—including mileage, brand, model, fuel type, transmission, engine specifications, ownership history, power, and prevailing market trends—our model delivers precise price estimates that benefit both buyers and sellers.
 
 ## Key Features
@@ -19,4 +17,4 @@ Our model’s effectiveness hinges on continuous refinement and validation. Regu
 - **Market Transparency:** Enhances pricing transparency, contributing to a more efficient and equitable used car market.
 - **Ongoing Improvement:** Commitment to refining the model ensures relevance and reliability amidst changing market conditions.
 
-In summary, **Value Wheels** represents a significant advancement in used car price prediction, driving towards a more transparent and efficient marketplace through sophisticated predictive analytics.
+**Value Wheels** represents a significant advancement in used car price prediction, driving towards a more transparent and efficient marketplace through sophisticated predictive analytics.
