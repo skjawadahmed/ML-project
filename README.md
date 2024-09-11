@@ -6,7 +6,7 @@
 - **Advanced Machine Learning Techniques:** Utilizes regression analysis and neural networks to analyze complex datasets, uncovering patterns and relationships that influence vehicle values.
 - **Dynamic Data Integration:** Handles vast amounts of data to generate reliable predictions, adapting to evolving market dynamics and trends.
 - **Enhanced Market Efficiency:** Promotes transparent pricing and informed decision-making, fostering fair transactions and a more equitable marketplace.
-  These features ensure accurate price predictions and insights for buyers and sellers.
+## These features ensure accurate price predictions and insights for buyers and sellers.
 
 ## Implementation
 
