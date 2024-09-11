@@ -45,8 +45,12 @@ It's a simple and quick way to get used car price predictions.
 - **Ongoing Improvement:** Commitment to refining the model ensures relevance and reliability amidst changing market conditions.
 
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2024-09-11 223926](https://github.com/user-attachments/assets/5820a768-98a7-4058-87f9-78681e66f092)
+![Screenshot 2024-09-11 224033](https://github.com/user-attachments/assets/f04a08be-b27f-41aa-8c74-645f31c21fe5)
+![Screenshot 2024-09-11 224124](https://github.com/user-attachments/assets/abc10166-6e97-44be-9e3e-610d7fae6841)
+![Screenshot 2024-09-11 224403](https://github.com/user-attachments/assets/0b1f7c12-65d1-4d97-adb7-b5c8726115cd)
+![Screenshot 2024-09-11 224427](https://github.com/user-attachments/assets/660daf1e-c3d5-4374-b480-a5ffb6c04e71)
+![Screenshot 2024-09-11 224445](https://github.com/user-attachments/assets/a7da8d57-9495-4e0e-88ed-f8c0bf3b9afe)
 
 ## Future imporvements
 - **Better Accuracy**: Use real-time data for more precise predictions.
