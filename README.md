@@ -44,6 +44,10 @@ It's a simple and quick way to get used car price predictions.
 - **Market Transparency:** Enhances pricing transparency, contributing to a more efficient and equitable used car market.
 - **Ongoing Improvement:** Commitment to refining the model ensures relevance and reliability amidst changing market conditions.
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 ## Future imporvements
 - **Better Accuracy**: Use real-time data for more precise predictions.
 - **User Profiles**: Save searches and preferences.
