@@ -220,8 +220,8 @@ if selected == "Contact Us":
             password = "rcgu fruc bemw lfeb"  # Replace with the app password for your Gmail account
 
             # Email content
-            subject = "Test Email from Python"
-            body = f"This is from Value Wheels \n Name: {name} \n Email: {email} \n Message: {message}"
+            subject = "Mail from Value Wheels "
+            body = f"This is from Value Wheels User \n Name: {name} \n Email: {email} \n Message: {message}"
             # Create the email message
             message = MIMEMultipart()
             message["From"] = sender_email
