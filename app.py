@@ -192,16 +192,46 @@ if selected == "Contact Us":
         name = st.text_input("Name")
         email = st.text_input("Email")
         message = st.text_area("Message")
-        
+        emailFlag = False
+        # Validate the email format
+        if email:
+            email_pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+            if re.match(email_pattern, email):
+                emailFlag = True
+            else:
+                emailFlag = False
+                st.error("Invalid email address. Please try again.")
+
         # Submit button
         submit_button = st.form_submit_button("Send")
         
-        if submit_button:
+        if submit_button and emailFlag:
             # Display a thank you message or perform further actions
             st.success("Thank you for your message! We will get back to you soon.")
-            
-            # Here you could add code to handle form submission, e.g., send an email or save to a database.
-            # For simplicity, we'll just print the values to the console
-            st.write("Name:", name)
-            st.write("Email:", email)
-            st.write("Message:", message)
+            #send email
+            # Sender and Receiver details
+            receiver_email = "skjawadahmed07@gmail.com"
+            sender_email = "skjawadahmed07@gmail.com"
+            password = "rcgu fruc bemw lfeb"  # Replace with the app password for your Gmail account
+
+            # Email content
+            subject = "Test Email from Python"
+            body = f"This is from Value Wheels \n Name: {name} \n Email: {email} \n Message: {message}"
+            # Create the email message
+            message = MIMEMultipart()
+            message["From"] = sender_email
+            message["To"] = receiver_email
+            message["Subject"] = subject
+            message.attach(MIMEText(body, "plain"))
+
+            # Send the email
+            try:
+                smtp_server = "smtp.gmail.com"
+                smtp_port = 587  # Port for TLS
+                with smtplib.SMTP(smtp_server, smtp_port) as server:
+                    server.starttls()  # Upgrade the connection to secure
+                    server.login(sender_email, password)  # Login to the SMTP server
+                    server.send_message(message)  # Send the email
+                st.success("Email sent successfully!")
+            except Exception as e:
+                st.error(f"An error occurred: {e}")
