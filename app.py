@@ -5,6 +5,11 @@ import streamlit as st
 import base64
 from streamlit_option_menu import option_menu
 import matplotlib.pyplot as plt
+import smtplib
+import re
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
 
 # Define function to get base64 of a binary file
 def get_base64_of_bin_file(bin_file):
